@@ -1,13 +1,14 @@
-import Home from "./assets/paginas/home/Home";
-import "./App.css";
+import Home from './assets/paginas/home/Home';
+import './App.css';
+import React from 'react';
 
 function App() {
+ 
   return (
-    <div className="App">
-      <Home />
-    </div>
+    <>
+      <Home/>
+    </>
   );
 }
 
 export default App;
-
