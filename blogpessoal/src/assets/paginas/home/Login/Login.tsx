@@ -1,14 +1,14 @@
-import React, { ChangeEvent, useContext, useEffect, useState } from 'react';
+import { ChangeEvent, useContext, useEffect, useState } from 'react';
 import '../Login/Login.css';
 
 import { Link, useNavigate } from 'react-router-dom';
 
-import { AuthContext } from '../Context/AuthContext';
-import UsuarioLogin from '../assets/Models/UsuarioLogin';
+import { AuthContext } from '../../../../Context/AuthContext';
+import UsuarioLogin from '../../../../Models/UsuarioLogin';
 import { RotatingLines } from 'react-loader-spinner';
 
 function Login() {
-  let navigate = useNavigate();
+  const navigate = useNavigate();
 
   const [usuarioLogin, setUsuarioLogin] = useState<UsuarioLogin>(
     {} as UsuarioLogin

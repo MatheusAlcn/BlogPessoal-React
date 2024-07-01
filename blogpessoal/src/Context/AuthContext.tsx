@@ -1,6 +1,6 @@
 import { createContext, ReactNode, useState } from "react"
 
-import UsuarioLogin from "../assets/Models/UsuarioLogin"
+import UsuarioLogin from "../Models/UsuarioLogin"
 import { login } from "../Service/Service"
 // import { toastAlerta } from "../utils/toastAlerta"
 
